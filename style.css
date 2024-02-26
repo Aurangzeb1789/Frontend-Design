@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Griffy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+a:hover {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+ 
+}
+li {
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+.menu {
+  background-color: #fc8019;
+  justify-content: space-between;
+}
+.logo {
+          padding: 5px 15px;
+          /* font-size: 1.6rem; */
+
+}
+.logo h1{
+              padding-inline:20px ;
+              font-size: 2.3rem;
+              font-family: "Delicious Handrawn", cursive;
+              /* color: black; */
+              
+}
+.list {
+  margin-right: 40px;
+}
+
+/* header */
+
+.background {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.8)),
+    url(img/background7.5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  text-align: center;
+  position: relative;
+  top: 35%;
+}
+.text h1 {
+  padding-bottom: 35px;
+  font-size: 2.7rem;
+  font-family: "Delicious Handrawn", cursive;
+}
+.text a {
+  background-color: #fc8019;
+  font-size: 1.7rem;
+  padding: 7px 15px;
+  border-radius: 10px;
+  font-family: "Delicious Handrawn", cursive;
+  transition: 0.1s ease-in-out;
+}
+
+.text a:hover {
+                 border: 3px solid white;
+                 /* color: red; */
+}
+
+/* We Servers */
+
+.we {
+  background-color: #f8f9fa;
+  /* background-color: black; */
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px #dee2e6 , -2px -2px 4px #dee2e6;
+}
+.serve {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  gap: 20px;
+}
+
+.starter {
+  display: inline-block;
+  margin-bottom: 15px;
+  /* width: 23%; */
+  padding: 10px;
+  color: #495057;
+  /* color: #fc8019; */
+  text-align: center;
+}
+
+.starter h3 {
+  width: 400px;
+  padding-block: 5px;
+  font-family: cursive;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #fc8019;
+}
+
+.starter p {
+  font-size: 1.2rem;
+  width: 400px;
+  padding-block: 5px;
+  font-family: cursive;
+}
+.stater1 {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.starter:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 8px #495057;
+  /* box-shadow: 2px 2px 8px #fc8019; */
+  border-radius: 12px;
+}
+
+h2 {
+  text-align: center;
+  padding-block: 15px;
+  font-size: 3rem;
+  font-family: "Delicious Handrawn", cursive;
+  color: #495057;
+}
+
+/* Amenities */
+
+.amt1 {
+  background: url(img/tree2.png);
+  background-repeat: no-repeat;
+  background-size: 550px;
+}
+
+.amt1 {
+  background-color: #f8f9fa;
+  /* background-color: #99d98c; */
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 3px #dee2e6;
+  padding-block: 50px;
+}
+
+.service {
+  padding-block: 20px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.service1 {
+  width: 150px;
+  flex-direction: column;
+}
+
+.icon {
+  width: 90px;
+  border: 2px solid #eb5e28;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.service p {
+  margin-top: 10px;
+  color: #eb5e28;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: cursive;
+  font-weight: bold;
+}
+.amt1 h2 {
+  color: #eb5e28;
+}
+
+/* About us */
+
+.about {
+  height: 700px;
+  background: url(img/About3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about {
+  /* background-color: #f8f9fa; */
+  width: 70%;
+  margin: 30px auto;
+  position: relative;
+  /* border-radius:5px; */
+  /*box-shadow: 2px 2px 3px #dee2e6; */
+}
+.us h2 {
+  color: white;
+  padding-top: 40px;
+}
+
+.line {
+  padding: 15px 30px;
+  position: absolute;
+  bottom: 15px;
+  font-family: cursive;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+
+/* Gallery */
+
+.gallery {
+    margin: 60px 20px;
+    background-color: #f8f9fa;
+    /* background-color: black; */
+    box-shadow: 2px 2px 2px #dee2e6 , -2px -2px 2px #dee2e6 ;
+    border-radius: 12px;
+}
+
+.gallery h2 {
+  padding-block: 20px;
+}
+
+.g-image {
+  justify-content: space-evenly;
+  padding: 20px 0px 40px 0px;
+}
+
+.g-image1 {
+  width: 400px;
+  border-radius: 20px;
+  border: 3px solid #fc8019;
+  /* padding-block: 20px; */
+}
+
+/* Video  */
+
+.video {
+  /* background-color: #f8f9fa;
+    background-color: #353535; */
+  background-color: #14213d;
+  margin: 60px 40px 60px;
+  border-radius: 12px;
+  /* box-shadow: 2px 2px 3px #dee2e6; */
+}
+
+.video h2 {
+  padding-block: 30px;
+  color: #e5e5e5;
+  /* color: #fc8019; */
+}
+
+.video0 {
+  justify-content: space-evenly;
+  padding: 15px 0px 40px 0px;
+}
+
+.video1 {
+  width: 400px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 3px #e5e5e5, -1px -1px 3px #e5e5e5;
+  /* box-shadow: 1px 1px 3px #fc8019, -1px -1px 3px #fc8019; */
+}
+
+/* Contact Us  */
+
+.contact {
+  background-color: black;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 2px #dee2e6, -1px -1px 2px #dee2e6;
+  /* justify-content: space-between; */
+}
+h2 {
+  color: #fc8019;
+}
+
+.contact1 {
+  justify-content: space-between;
+}
+.address {
+  width: 367px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.address p {
+  padding: 10px;
+  font-size: 1rem;
+  font-family: cursive;
+  letter-spacing: 1px;
+}
+
+.cxz {
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #fc8019;
+}
+
+.icons {
+  padding: 10px;
+}
+
+/* Contact us */
+
+.form {
+  width: 500px;
+  margin: 20px 60px;
+}
+.box {
+  margin: 13px;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+textarea {
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.submit {
+  display: block;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #fc8019;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  color: white;
+  border: 2px solid black;
+  margin: 3px auto;
+  letter-spacing: 2px;
+}
+
+.submit:hover {
+  background-color: #ff7300;
+  cursor: pointer;
+  border: 3px solid;
+  border-color: white;
+}
+
+::placeholder {
+  color: #fc8019;
+}
